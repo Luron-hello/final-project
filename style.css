@@ -1,0 +1,770 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+nav{
+    padding-top: 45px;
+    padding-left: 410px;
+}
+.nav-in-container{
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.red{
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: #F84646;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+.container {
+
+    margin: auto;
+    max-width: 1197px;
+}
+.container2{
+
+    margin: auto;
+    max-width: 1197px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 64px;
+    max-width: 665px;
+    padding-bottom: 20px;
+}
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mainn {
+    max-width: 665px;
+
+    padding-bottom: 148px;
+}
+
+.nav-in-container {
+    margin-left: 40px;
+}
+
+.first-main {
+    background-image: url(images/tree.png);
+    background-repeat: no-repeat;
+    padding-top: 135px;
+    background-size: cover;
+
+}
+.second-main {
+    text-align: center;
+}
+
+.flexicon {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+
+}
+.Müşterilerimizin{
+    max-width: 650px;
+    
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.2px;
+color: #000000;
+}
+form{
+margin-top: 50px;
+}
+.formm{
+    width: 502px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    background-color: #ffffff;
+}
+
+.mail{
+padding-top: 18px;
+padding-bottom: 18px;
+border:none;
+border-radius: 8px;
+padding-left: 32px;
+width: 360px;
+}
+.ol{
+    margin: auto;
+    background: #F84646;
+    border:none;
+    border-radius: 8px;
+    padding-top: 15px;
+padding-bottom: 15px;
+width: 136px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+
+
+}
+h2{
+    
+    font-size: 36px;
+}
+.yuk{
+    padding-top: 30px;
+    max-width: 994px;
+    margin: auto;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #000000;
+}
+
+.flexicon p{
+    max-width: 298px;
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+}
+.fisrt-icon{
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 90px;
+}
+.second-icon{
+    margin-left: 50px;
+margin-right: 50px;
+margin-top: 90px;
+}
+.third-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin-top: 90px;
+}
+.fourth-icon{
+    margin-left: 50px;
+margin-right: 50px;
+margin-top: 90px;
+}
+.fifth-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+.sixth-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+.block{
+    display: none;
+}
+.thirty-main{
+    background: #F84646;
+    color: #FFFFFF;
+    height: 376px;
+}
+.test{
+    text-align: center;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+padding-top: 68px;
+    margin-top: 120px;
+}
+.iot{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px; 
+    text-align: center;
+    padding-top: 8px;
+}
+.icon-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;  
+    padding-bottom: 78px;
+}
+.icon-1{
+max-width: 146px;
+}
+.icon-2{
+    max-width: 199px;
+    }
+.icon-3{
+max-width: 181px;
+}
+.icon-4{
+    max-width: 182px;
+    }
+    .icon-11{
+padding-left: 45px;
+padding-right: 50px;
+    }
+    .icon-22{
+        padding-left: 45px;
+        padding-right: 50px;  
+    }
+    .icon-33{
+        padding-left: 45px;
+        padding-right: 50px;  
+    }
+.icon-flex p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.company{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 96px;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+border-radius: 16px;
+margin: 12px 12px 12px 12px;
+}
+.forty-main{
+    background-color: #F4F5F7;
+}
+.fifth-columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirty-main-plus{ 
+    padding-top: 160px;
+    padding-bottom: 160px;
+
+}
+.flex-kalite{
+    display: flex;
+}
+.flex-test2{
+    display: flex;
+}
+.kalite{
+    width: 50%;
+    padding-right: 120px;
+
+
+}
+.kalite-img{
+    padding-top: 120px;
+    width: 50%;
+
+}
+.test-img{
+    width: 50%;
+
+}
+.test2{
+    width: 50%;
+
+
+}
+.h23{
+    margin-top: 120px;
+}
+.plus-h3{
+
+    padding-top: 120px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #2E2E2E; 
+    padding-bottom: 40px;
+}
+.plus-h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #2E2E2E; 
+    padding-bottom: 40px;
+}
+
+.plus-p{
+
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #808080;
+padding-bottom: 80px;
+}
+.plus-p2{
+   
+    padding-right: 50px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #808080;
+padding-bottom: 80px;  
+}
+.plus-button{
+    width: 160px;
+    height: 48px;
+    background: #F84646;
+    border-radius: 8px;  
+    border: none;
+    color: #ffffff;
+}
+.h2-column{
+    padding-top: 59px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+color: #18191F;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+}
+.p-column{
+    padding-top: 5px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    padding-bottom: 48px;
+}
+.last-block{
+    text-align: center;
+    align-items: center;
+}
+.bize-people{
+    padding-top: 160px;
+    padding-bottom: 10px;
+}
+.bize-h2{
+  padding-bottom: 20px;  
+}
+.bize-p{
+    padding-bottom: 30px;
+}
+.bize-button{
+    margin-bottom: 160px;
+align-items: center;
+width: 204px;
+height: 70px;
+background: #F84646;
+border-radius: 8px;
+border: none;
+}
+.bize-button-p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #FFFFFF;
+}
+footer{
+    background: #F8464A;
+}
+.footer-first{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    
+}
+.footer-second{
+ display: flex;   
+ justify-content: space-between;
+}
+.footer-p-main{
+padding-bottom: 24px;
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #E6E6E6;
+}
+.footer-p{
+padding-bottom: 24px;
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #E6E6E6;
+}
+.footer-second{
+    padding-top: 26px;
+    padding-bottom: 70px;
+}
+.footer-icon{
+    padding-right: 16px;
+}
+
+@media (max-width: 1296px){
+    .container{
+        max-width: 850px;
+    }
+    nav{
+        padding-top: 45px;
+        padding-left: 0px;
+    }
+
+h1{
+    font-size: 56px;
+}
+.Müşterilerimizin{
+    font-size: 16px;
+}
+.test2{
+    padding-left: 56px;
+}
+.kalite{
+    width: 50%;
+    padding-right: 52px;
+}
+.container2{
+    max-width: 1000px;
+}
+
+.plus-p2{
+    padding-right: 0px;
+}
+.plus-h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+
+}
+.plus-h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+}
+
+.plus-p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.plus-p2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;   
+}
+}
+@media (max-width: 1100px){
+    .delete{
+        display: none;
+    }
+    .flex-kalite{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .flex-test2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .test2{
+        padding-left: 0px;
+    }
+    .kalite{
+        padding-right: 0px;
+    }
+    .kalite-img{
+        padding-top: 120px;
+        width: 90%;
+    
+    }
+    .test-img{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .fifth-columns{
+        display: flex;
+        flex-direction: column;
+    }
+    .minimum{
+        margin-bottom: 0px;
+    }
+    .plus-h3{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 865px){
+    .container{
+        max-width: 700px;
+    }
+    .nav-in-container{
+        display: none;
+    }
+.red{
+    position: absolute;
+    right: 20px;
+}
+    .fisrt-icon{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 45px;
+        }
+        .second-icon {
+            margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 45px;
+        }
+        .third-icon{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 45px;
+        }
+        .fourth-icon{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 45px;
+        }
+        .fifth-icon{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 45px;
+        }
+        .sixth-icon{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 45px;
+        }
+        .icon-111{
+        transform: rotate(90deg);
+            }
+        .icon-flex{
+            align-items: center;
+    flex-direction: column;
+                }
+        
+        .thirty-main{
+        background: #F84646;
+        color: #FFFFFF;
+        height: 920px;
+                }
+        .icon-11{
+        padding-left: 0px;
+        padding-right: 0px;
+         }
+        .icon-22{
+         padding-left: 0px;
+         padding-right: 0px;  
+        }
+        .icon-33{
+        padding-left: 0px;
+         padding-right: 0px;  
+         }
+.icon-p{
+    text-align: center;
+}
+.icon-11{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.icon-22{
+    padding-top: 40px;
+    padding-bottom: 40px;    
+}
+.icon-33{
+    padding-top: 40px;
+    padding-bottom: 40px;   
+}
+.footer-first{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-second{
+ display: flex; 
+ flex-direction: column;  
+
+}
+}
+@media (max-width: 750px){
+    .container{
+        max-width: 650px;
+    }
+    .fisrt-icon{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 45px;
+        }
+        .second-icon {
+            margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 45px;
+        }
+        .third-icon{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 45px;
+        }
+        .fourth-icon{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 45px;
+        }
+        .fifth-icon{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 45px;
+        }
+        .sixth-icon{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 45px;
+        }
+}
+@media (max-width: 650px){
+    .first-main {
+        background-image: radial-gradient(118.67% 101.66% at 141.47% 78.12%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),url(images/tree.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    
+    }
+    .container{
+        max-width: 350px;
+    }
+
+    h1{
+        text-align: center;
+font-size: 42px;
+    }
+    .Müşterilerimizin{
+        font-size: 12px;
+    }
+
+    .formm{
+        width: 335px;
+      
+    }
+    
+    .mail{
+
+    width: 240px;
+    }
+    .ol{
+ 
+    width: 87px;
+    }
+    h2{
+        
+        margin-top: 60px;
+     font-size: 24px;   
+    }
+    .yuk{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .flexicon{
+        justify-content: center;
+    }
+    .fisrt-icon{
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 45px;
+        }
+        .second-icon {
+            margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 45px;
+        }
+        .third-icon{
+            margin-left: 0px;
+            margin-right: 10px;
+            margin-top: 45px;
+        }
+        .fourth-icon{
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 45px;
+        }
+        .fifth-icon{
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 45px;
+        }
+        .sixth-icon{
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 45px;
+        }
+        .block{
+            display: inline-block;
+          
+            
+        }
+.plus-h2{
+    font-size: 36px;
+}
+.plus-h3{
+    font-size: 36px;
+}
+}
+
